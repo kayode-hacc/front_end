@@ -1,0 +1,11 @@
+.Input__area {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    align-items:baseline;
+    justify-content: space-between;
+    
+}

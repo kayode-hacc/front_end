@@ -1,0 +1,91 @@
+.Messages__container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: space-between;
+    color: rgb(186, 209, 230);
+    font-family: monospace;
+    font-size:medium;
+    
+}
+
+
+.bot__msg{
+    background-color: rgb(41, 49, 56);
+    padding: 20px;
+    max-width: fit-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(61, 60, 60);
+    margin: 40px;
+    justify-content: space-between;
+    color: rgb(186, 209, 230);
+    font-family: monospace;
+    font-size:medium;
+    
+    
+}
+.bot__msg:hover{
+    box-shadow: 2px 2px 2px 2px rgb(61, 60, 60);
+    transition: 1s;
+}
+.user__msg{
+    background-color: rgb(41, 49, 56);
+    padding: 20px;
+    max-width: fit-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(61, 60, 60);
+    color: rgb(186, 209, 230);
+    font-family: monospace;
+    float: right !important;
+    margin-right: 40px;
+    
+    
+    
+
+}
+.btn_div {
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.btn {
+    height: 10px;
+    background-color: aqua;
+}
+
+.input__text{
+    outline: none !important;
+    background: transparent;
+    width:740%;
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-radius: 50px;
+    line-height: 10px;
+    box-shadow:2px 2px 2px 2px rgb(48, 48, 48);
+    color: rgb(186, 209, 230);
+}
+
+
+@media screen  and (max-width:600px){
+    .input__text{
+        width: 165%;
+    }
+    
+}
+
+
+
+
+.bot_reply{
+ 
+    background-color: rgb(41, 49, 56);
+    padding: 30px;
+    max-width: fit-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(61, 60, 60);
+    margin: 40px;
+    justify-content: space-between;
+    color: rgb(186, 209, 230);
+    font-family: monospace;
+    font-size:medium;
+}

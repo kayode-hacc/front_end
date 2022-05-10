@@ -1,0 +1,30 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.App__bar_container{
+  background:#1e232c;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between; 
+  box-shadow: 1px 1px #0e0d0d;
+  color: white;
+  font-family: monospace;
+  font-size:large;
+}
+
+.App__bar_profile__info{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.App__bar_profile__name{
+  padding-left: 20px;
+}

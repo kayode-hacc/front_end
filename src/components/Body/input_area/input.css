@@ -1,0 +1,22 @@
+.input__text{
+    outline: none !important;
+    background: transparent;
+    width:90%;
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-radius: 50px;
+    line-height: 10px;
+    box-shadow:2px 2px 2px 2px rgb(48, 48, 48);
+    color: rgb(186, 209, 230);
+}
+
+@media screen and (max-width:550px) {
+    .input__text{
+        width: 80%;
+    }
+}
+.input__text:focus{
+    box-shadow:4px 4px 4px 4px rgb(48, 48, 48)
+
+}
